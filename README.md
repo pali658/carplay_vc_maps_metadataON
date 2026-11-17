@@ -8,7 +8,7 @@ Maintained by [pali658](https://github.com/pali658).
 > This repository contains documentation and version history only.
 > No installer packages, binaries or firmware files are published here.
 
-**Current version:** v1.3.2
+**Current version:** v1.3.3
 
 ## What it adds
 

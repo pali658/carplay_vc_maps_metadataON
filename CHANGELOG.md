@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.3.3 – 2026-11-17
+- Call icon in dark style (green handset on a dark rounded tile).
+
 ## v1.3.2 – 2026-11-17
 - Call info: caller name and number are told apart by content, so the name is the large first line
   and the number the small second line.
