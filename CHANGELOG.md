@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.3.4 – 2026-11-17
+- Call info: caller name in the large (artist) line, number in the small (title) line.
+
 ## v1.3.3 – 2026-11-17
 - Call icon in dark style (green handset on a dark rounded tile).
 
