@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.4.1 – 2026-11-17 (experimental, withdrawn)
+- HOME → CarPlay via a replacement of `HomeButtonMainTarget` has no effect on MU1440: the target is never
+  created on this unit (the HOME hard key, key code 116, is handled by the key panel / HMI view layer).
+  A possible future approach is the key-panel dispatcher. Recommended version stays v1.3.4.
+
 ## v1.4.0 – 2026-11-17
 - HOME button opens CarPlay / App-Connect; a second press within 2 s opens the stock home screen;
   on the home screen HOME still switches pages (MU1440 only).
