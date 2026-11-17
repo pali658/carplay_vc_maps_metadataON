@@ -8,7 +8,7 @@ Maintained by [pali658](https://github.com/pali658).
 > This repository contains documentation and version history only.
 > No installer packages, binaries or firmware files are published here.
 
-**Current version:** v1.3.4
+**Current version:** v1.4.0
 
 ## What it adds
 
@@ -21,6 +21,7 @@ Maintained by [pali658](https://github.com/pali658).
 | Arrival time shown in local time (Europe/Zurich) instead of UTC | ✅ tested |
 | Stuck lane-guidance arrows cleared after the junction | ✅ tested |
 | Call info in the now-playing tile – caller name (large) and number (small) with a handset icon during a call | ✅ tested |
+| HOME button opens CarPlay (2× HOME = stock home screen) – MU1440 only | 🧪 testing |
 | Status page in the GEM menu shows build, metadata state and maintainer | ✅ tested |
 
 ## Key fixes against the original rc.7
@@ -33,6 +34,8 @@ Maintained by [pali658](https://github.com/pali658).
 - **Arrival time one hour off** – computed in the unit's UTC default time zone.
 - **Lane arrows stuck** – the original stale-lane check was an empty stub.
 - **Call tile** – the original code blanked the tile during calls and stopped refreshing it.
+- **HOME → CarPlay** – replacement of the stock `HomeButtonMainTarget` (MU1440 HMI) that sends the same
+  intent as the App-Connect tile; on the home screen and on a double press the stock behaviour is kept.
 
 ## Tested hardware
 

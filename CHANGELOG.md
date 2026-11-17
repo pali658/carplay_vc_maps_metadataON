@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.4.0 – 2026-11-17
+- HOME button opens CarPlay / App-Connect; a second press within 2 s opens the stock home screen;
+  on the home screen HOME still switches pages (MU1440 only).
+
 ## v1.3.4 – 2026-11-17
 - Call info: caller name in the large (artist) line, number in the small (title) line.
 
