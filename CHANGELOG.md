@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.3.2 – 2026-11-17
+- Call info: caller name and number are told apart by content, so the name is the large first line
+  and the number the small second line.
+
 ## v1.3.1 – 2026-11-17
 - Call info: refresh of the cluster tile only at call start (+1 retry), on caller change and at call end
   (idle cost: one call-state check per second, no extra cluster traffic outside calls).

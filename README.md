@@ -8,7 +8,7 @@ Maintained by [pali658](https://github.com/pali658).
 > This repository contains documentation and version history only.
 > No installer packages, binaries or firmware files are published here.
 
-**Current version:** v1.3.1
+**Current version:** v1.3.2
 
 ## What it adds
 
@@ -19,8 +19,8 @@ Maintained by [pali658](https://github.com/pali658).
 | Navigation metadata in the native cluster tile – maneuver arrow, distance, arrival time (Apple Maps and Google Maps) | ✅ tested |
 | Now playing – title, artist and album artwork in the cluster | ✅ tested |
 | Arrival time shown in local time (Europe/Zurich) instead of UTC | ✅ tested |
-| Stuck lane-guidance arrows cleared after the junction | 🧪 testing |
-| Call info in the now-playing tile – caller name/number and a handset icon during a call | 🧪 testing |
+| Stuck lane-guidance arrows cleared after the junction | ✅ tested |
+| Call info in the now-playing tile – caller name (large) and number (small) with a handset icon during a call | ✅ tested |
 | Status page in the GEM menu shows build, metadata state and maintainer | ✅ tested |
 
 ## Key fixes against the original rc.7
