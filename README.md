@@ -23,6 +23,7 @@ Maintained by [pali658](https://github.com/pali658).
 | Call info in the now-playing tile – caller name (large) and number (small) with a handset icon during a call | ✅ tested |
 | HOME button opens CarPlay | ❌ not possible this way – see changelog v1.4.1 |
 | Status page in the GEM menu shows build, metadata state and maintainer | ✅ tested |
+| Android Auto | ⚠️ not tested |
 
 ## Key fixes against the original rc.7
 
@@ -40,6 +41,9 @@ Maintained by [pali658](https://github.com/pali658).
 | Unit (5F) | Cluster | Phone | Result |
 |---|---|---|---|
 | MU1440 (Škoda) | AID 10.5 (profile 790) | iPhone 14 Pro, Google Maps + Apple Maps | works |
+
+**Android Auto has not been tested.** All changes were developed and verified with Apple CarPlay only;
+behaviour with Android Auto is unknown.
 
 Other profiles of the original package (MU1102, MU1367, MU1433, MU1447, AID 12.3) contain the same
 changes where applicable but are **untested**. The exact firmware is identified by the size of `lsd.jxe`;
