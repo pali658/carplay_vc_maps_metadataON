@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.3.5 – 2026-11-18
+- Fix: cluster could lag after a call ended (the iPhone flips the call state several times and every flip
+  re-sent the cover image). Call state is now debounced (start 1 s, end 2 s), cover re-send limited to once
+  per 15 s, and a storm guard pauses the call feature for 60 s after more than 6 changes per minute.
+- Optional variant without the call feature (lane fix kept).
+
 ## v1.4.1 – 2026-11-17 (experimental, withdrawn)
 - HOME → CarPlay via a replacement of `HomeButtonMainTarget` has no effect on MU1440: the target is never
   created on this unit (the HOME hard key, key code 116, is handled by the key panel / HMI view layer).
